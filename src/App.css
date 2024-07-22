@@ -1,3 +1,9 @@
+html{
+  background-color: black;
+  background-image: url("./componentes/img/paper.png");
+  background-repeat: repeat;
+  background-size: 200px;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +41,55 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.infoImage{
+  height: 400px;
+  float: left;
+  margin: 10px;
+}
+
+.contenedor1{
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.37);
+  height: 400px;
+}
+
+.contenedor2{
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 5%;
+  background-color: rgba(0, 0, 0, 0.37);
+}
+.parrafo{
+  margin-left: auto;
+  padding: 5%;
+}
+p#info{
+  text-align: justify;
+  font-size: 16pt;
+  font-family: Impact;
+  color: rgb(255, 255, 255);
+}
+
+.form{
+  background-color: rgba(0, 0, 0, 0.856);
+  width: 35%;
+  font-size: medium;
+  color: white;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10%;
+}
+
+label{
+  font-family: OCR A;
+}
+.titulo{
+  color: white;
+  font-size: 200%;
+  padding: 25px;
+}
+.navbar-custom {
+  background-color: rgb(19, 19, 19);
 }
