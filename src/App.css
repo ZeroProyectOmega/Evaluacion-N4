@@ -61,6 +61,12 @@ html{
   padding: 5%;
   background-color: rgba(0, 0, 0, 0.37);
 }
+.contenedor3{
+  margin-left: 15%;
+  margin-right: 15%;
+  padding: 5%;
+  background-color: rgba(32, 27, 68, 0.74);
+}
 .parrafo{
   margin-left: auto;
   padding: 5%;
@@ -90,6 +96,45 @@ label{
   font-size: 200%;
   padding: 25px;
 }
+.titulo2{
+  color: white;
+  font-size: 200%;
+}
+.importante{
+  color: rgb(255, 0, 0);
+}
 .navbar-custom {
   background-color: rgb(19, 19, 19);
+}
+
+:root{
+  --templado: rgb(236, 218, 146);
+  --grisaseo: hsl(228, 12%, 44%);
+  --seminaranja: rgb(184, 73, 46);
+  --rojiso: hsl(348, 97%, 39%);
+}
+body{
+  font-family: 'Inter', sans-serif;
+  margin: 3em;
+}
+h1{
+  font-size: 1.5em;
+  font-weight: bold;
+
+}
+.container {
+  margin-top: 20px;
+  background : var(--grisaseo);
+}
+.coloricon {
+  color: var(--rojiso);
+  align-items: flex-end;
+}
+
+.panel1 {
+  background-color: var(--templado);
+}
+
+.panel2 {
+  background-color: var(--seminaranja);
 }

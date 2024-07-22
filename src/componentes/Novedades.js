@@ -22,6 +22,9 @@ const Novedades = () =>{
                     </li>
                 </ul>
             </div>
+            <div className="container">
+                
+            </div>
         </>
     )
 }

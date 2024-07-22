@@ -27,50 +27,50 @@ const Coleccion = () =>{
                     </li>
                 </ul>
             </div>
-            <div class="contenedor2">
-                <h3 class="titulo">Tipos de Beyblade</h3>
-                    <div class="row row-cols-1 row-cols-md-2 g-4">
-                        <div class="col">
-                        <div class="card text-bg-primary">
-                            <Image src={DS_30_60_F} class="card-img-top" alt="SwordDran_3-60F"/>
-                            <div class="card-body">
-                            <h5 class="card-title">Sword Dran 3-60F</h5>
-                            <p class="card-text">Blade: Sword Dran</p>
-                            <p class="card-text">Rachet: 3-60</p>
-                            <p class="card-text">Bit: Flat</p>
+            <div className="contenedor2">
+                <h3 className="titulo">Tipos de Beyblade</h3>
+                    <div className="row row-cols-1 row-cols-md-2 g-4">
+                        <div className="col">
+                        <div className="card text-bg-primary">
+                            <Image src={DS_30_60_F} className="card-img-top" alt="SwordDran_3-60F"/>
+                            <div className="card-body">
+                            <h5 className="card-title">Sword Dran 3-60F</h5>
+                            <p className="card-text">Blade: Sword Dran</p>
+                            <p className="card-text">Rachet: 3-60</p>
+                            <p className="card-text">Bit: Flat</p>
                             </div>
                         </div>
                         </div>
-                        <div class="col">
-                        <div class="card text-bg-danger">
-                            <Image src={HS_4_60_T} class="card-img-top" alt="ScytheIncendio_4-60T"/>
-                            <div class="card-body">
-                            <h5 class="card-title">Scythe Indendio 4-60T</h5>
-                            <p class="card-text">Blade: Scythe Incendio</p>
-                            <p class="card-text">Rachet: 4-60</p>
-                            <p class="card-text">Bit: Taper</p>
+                        <div className="col">
+                        <div className="card text-bg-danger">
+                            <Image src={HS_4_60_T} className="card-img-top" alt="ScytheIncendio_4-60T"/>
+                            <div className="card-body">
+                            <h5 className="card-title">Scythe Indendio 4-60T</h5>
+                            <p className="card-text">Blade: Scythe Incendio</p>
+                            <p className="card-text">Rachet: 4-60</p>
+                            <p className="card-text">Bit: Taper</p>
                             </div>
                         </div>
                         </div>
-                        <div class="col">
-                        <div class="card text-bg-warning">
-                            <Image src={WA_4_80_B} class="card-img-top" alt="ArrowWizard_4-80B"/>
-                            <div class="card-body">
-                            <h5 class="card-title">Arrow Wizard 4-80B</h5>
-                            <p class="card-text">Blade: Arrow Wizard</p>
-                            <p class="card-text">Rachet: 4-80</p>
-                            <p class="card-text">Bit: Ball</p>
+                        <div className="col">
+                        <div className="card text-bg-warning">
+                            <Image src={WA_4_80_B} className="card-img-top" alt="ArrowWizard_4-80B"/>
+                            <div className="card-body">
+                            <h5 className="card-title">Arrow Wizard 4-80B</h5>
+                            <p className="card-text">Blade: Arrow Wizard</p>
+                            <p className="card-text">Rachet: 4-80</p>
+                            <p className="card-text">Bit: Ball</p>
                             </div>
                         </div>
                         </div>
-                        <div class="col">
-                        <div class="card text-bg-success">
-                            <Image src={KS_3_80_N} class="card-img-top" alt="HelmKnight_3-80N"/>
-                            <div class="card-body">
-                            <h5 class="card-title">Helm Knight 3-80N</h5>
-                            <p class="card-text">Blade: Helm Knight</p>
-                            <p class="card-text">Rachet: 3-80</p>
-                            <p class="card-text">Bit: Niddle</p>
+                        <div className="col">
+                        <div className="card text-bg-success">
+                            <Image src={KS_3_80_N} className="card-img-top" alt="HelmKnight_3-80N"/>
+                            <div className="card-body">
+                            <h5 className="card-title">Helm Knight 3-80N</h5>
+                            <p className="card-text">Blade: Helm Knight</p>
+                            <p className="card-text">Rachet: 3-80</p>
+                            <p className="card-text">Bit: Niddle</p>
                             </div>
                         </div>
                         </div>
