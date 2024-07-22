@@ -1,9 +1,6 @@
 import React, {useState, useEffect} from "react";
 
-function load() {
-    verPost();
-}
-window.onload = load;
+
 
 function agregarPost(){
     var tituloForo = document.getElementById('tx-titulo').value;
